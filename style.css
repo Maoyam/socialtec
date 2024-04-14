@@ -555,6 +555,62 @@ footer {
 }
 
 /* 見出し */
+.mission-h2 {
+    color: #2710d5;
+    font-size: 40px;
+}
+
+/* 見出しの擬似要素 */
+.mission-h2::after {
+    content: none;
+}
+
+/* 5Goals セクション */
+#mission-5goals {
+    margin: 20px;
+    display: flex;
+}
+
+/* 左右のカラムをグループ化するdiv要素 */
+#mission-5goals > div {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* 一つ一つのコンテンツをグループ化するdiv要素 */
+#mission-5goals > div > div {
+    margin-bottom: 40px;
+}
+
+/* コンテンツの右側に表示する画像 */
+.fivegoals-image-right {
+    float: right;
+    margin: 20px;
+}
+
+/* コンテンツの左側に表示する画像 */
+.fivegoals-image-left {
+    float: left;
+    margin: 20px;
+}
+
+/* コンテンツの番号を囲むspan */
+.fivegoals-number {
+    color: #2710d5;
+    font-size: 48px;
+    margin: 0;
+}
+
+/* コンテンツの見出し */
+.fivegoals-h3 {
+    font-size: 28px;
+    margin: 0;
+}
+
+/* コンテンツの説明 */
+.fivegoals-p {
+    margin: 0;
+}
 }
 
 /*=========================== 
