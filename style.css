@@ -500,10 +500,61 @@ footer {
     margin-right: 30px;
 }
 
-#copylight {
+#copyright {
     color: #fff;
     float: right;
 }
+
+/* mission.html用スタイル */
+/* ミッションのメインビジュアル */
+#mission-main {
+    height: 496px;
+    width: 100%;
+    background-image: url(images/mission/mission-main.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+/* 見出しやパンクくずリストをグループ化するdiv要素 */
+#mission-title {
+    background-color: #2710d5;
+    width: 368px;
+    color: #fff;
+    height: 496px;
+    border-radius: 0 248px 248px 0;
+    position: relative;
+}
+
+/* 英語の見出し */
+#mission-title > h1 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    font-size: 80px;
+}
+
+/* カタカナの見出し */
+#mission-title > span {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 26px;
+}
+
+#mission-title > div {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-size: 16px;
+}
+
+/* S2DGsのスタイル */
+#mission-s2dgs {
+    width: 100%;
+    margin: 20px;
+}
+
+/* 見出し */
 }
 
 /*=========================== 
@@ -1003,4 +1054,66 @@ footer {
         content: "\A";
         white-space: pre;
     }
+
+/* フッター */
+ /* フッター全体とロゴ画像 */
+    footer {
+        background-color: #0d0d0d;
+        padding: 30px 20px 50px 20px;
+    }
+
+    /* ロゴ画像を囲むdiv要素 */
+    #footer-logo {
+        margin-bottom: 30px;
+    }
+
+ /* ハイパーリンク */
+    /* ハイパーリンクをグループ化するdiv要素 */
+    #footer-link {
+        margin-bottom: 50px;
+    }
+
+    /* ハイパーリンク */
+    #footer-link > a {
+        text-decoration: none;
+        margin: 0 20px 30px 0;
+        display: block;
+        background-image: url(images/arrow.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+
+    /* ハイパーリンクの擬似クラス */
+    #footer-link > a:link {
+        color: #fff;
+    }
+
+    #footer-link > a:visited {
+        color: #fff;
+    }
+
+    #footer-link > a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    #footer-link > a:active {
+        color: #fff;
+    }
+
+/* SNSボタンとコピーライト */
+
+    /* SNSボタンのハイパーリンク */
+    #sns-footer > a {
+        margin-right: 30px;
+    }
+
+    /* コピーライトを囲むspan */
+    #copyright {
+        font-size: 12px;
+        display: block;
+        margin-top: 30px;
+        color: #fff;
+    }
+
 }
