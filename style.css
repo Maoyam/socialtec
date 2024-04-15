@@ -611,6 +611,111 @@ footer {
 .fivegoals-p {
     margin: 0;
 }
+
+/* product.html用のスタイル */
+/* プロダクトのメインビジュアル */
+#product-main {
+    height: 496px;
+    width: 100%;
+    background-image: url(images/product/product-main.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+/* 見出しやパンクくずリストをグループ化するdiv要素 */
+#product-title {
+    background-color: #2710d5;
+    width: 368px;
+    color: #fff;
+    height: 496px;
+    border-radius: 0 248px 248px 0;
+    position: relative;
+}
+
+/* 英語の見出し */
+#product-title > h1 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    font-size: 80px;
+}
+
+/* カタカナの見出し */
+#product-title > span {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 26px;
+}
+
+#product-title > div {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-size: 16px;
+}
+
+/* PRODUCTのスタイル */
+/* 画像が左パターンのセクション */
+.product-section1 {
+    position: relative;
+    margin: 20px;
+    height: 340px;
+}
+
+/* 左パターンの画像 */
+.product-section1 > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 450px;
+    margin: 0 40px 30px 0;
+    border-radius: 0 432px 0 0;
+}
+/* 画像が左パターンのテキストをグループ化するdiv要素 */
+.product-section1 > div {
+    position: absolute;
+    top: 0;
+    left: 480px;
+}
+
+/* 画像が右パターンのsection要素 */
+.product-section2 {
+    position: relative;
+    margin: 20px;
+    height: 340px;
+}
+
+/* 右パターンの画像 */
+.product-section2 > img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 450px;
+    margin: 0 0 30px 40px;
+    border-radius: 432px 0 0 0;
+}
+
+/* 画像が右パターンのテキストをグループ化するdiv要素 */
+.product-section2 > div {
+    width: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* 英語の見出し */
+.product-h2 {
+    color: #2710d5;
+    font-size: 24px;
+    margin: 0;
+}
+
+/* 日本語の見出し */
+.product-h3 {
+    font-size: 28px;
+    margin: 0;
+}
 }
 
 /*=========================== 
@@ -1172,4 +1277,199 @@ footer {
         color: #fff;
     }
 
+/* MISSION ページ */
+    /* メインセクション */
+    #mission-main {
+        height: 256px;
+        width: 100%;
+        background-image: url(images/mission/mission-main.png);
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-size: auto 208px;
+    }
+
+    /* 見出し・パンくずリストのdiv */
+    #mission-title {
+        background-color: #2710d5;
+        width: 136px;
+        color: #fff;
+        height: 256px;
+        border-radius: 0 248px 248px 0;
+        position: relative;
+    }
+
+    /* 英語の見出し */
+    #mission-title > h1 {
+        position: absolute;
+        top: 0;
+        left: 20px;
+        font-size: 40px;
+    }
+    
+    /* カタカナの見出し */
+    #mission-title > span {
+        position: absolute;
+        top: 110px;
+        left: 20px;
+        font-size: 13px;
+    }
+    /* パンくずリスト */
+    #mission-title > div {
+        position: absolute;
+        top: 180px;
+        left: 20px;
+        font-size: 13px;
+    }
+
+/* S2DGs セクション */
+    #mission-s2dgs {
+        margin: 20px;
+    }
+
+    /* 見出し */
+    .mission-h2 {
+        color: #2710d5;
+        font-size: 38px;
+        margin: 0;
+    }
+
+    /* 見出しの擬似要素 */
+    .mission-h2::after {
+        content: none;
+    }
+
+    /* 画像 */
+    #mission-s2dgs > img {
+        width: 100%;
+    }
+
+/* 5Goals セクション */
+    #mission-5goals {
+        margin: 20px;
+    }
+
+    /* 一つ一つのコンテンツをグループ化するdiv要素 */
+    #mission-5goals > div > div {
+        margin-bottom: 40px;
+    }
+
+    /* PCではセクション左側に表示される画像 */
+    #s2dgs-image {
+        width: 100%;
+    }
+
+    /* PCではコンテンツの右側に表示される画像 */
+    .fivegoals-image-right,
+    .fivegoals-image-left {
+        /* 画像の上下にスペースを空け中央揃えにする */
+        margin: 20px auto;
+        /*要素を縦並びにする*/
+        display: block; 
+    }
+
+    /* コンテンツの番号を囲むspan要素 */
+    .fivegoals-number {
+        color: #2710d5;
+        font-size: 48px;
+        margin: 0;
+    }
+
+    /* コンテンツの見出し */
+    .fivegoals-h3 {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    /* コンテンツの説明文 */
+    .fivegoals-p {
+        margin: 0;
+    }
+
+/* PRODUCT ページ */
+    /* メインセクション */
+    #product-main {
+        height: 256px;
+        width: 100%;
+        background-image: url(images/product/product-main.png);
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-size: auto 208px;
+    }
+
+    /* 見出し・パンくずリストのdiv */
+    #product-title {
+        background-color: #2710d5;
+        width: 136px;
+        color: #fff;
+        height: 256px;
+        border-radius: 0 248px 248px 0;
+        position: relative;
+    }
+
+    /* 英語の見出し */
+    #product-title > h1 {
+        position: absolute;
+        top: 0;
+        left: 20px;
+        font-size: 40px;
+    }
+    
+    /* カタカナの見出し */
+    #product-title > span {
+        position: absolute;
+        top: 110px;
+        left: 20px;
+        font-size: 13px;
+    }
+    /* パンくずリスト */
+    #product-title > div {
+        position: absolute;
+        top: 180px;
+        left: 20px;
+        font-size: 13px;
+    }
+
+/* PRODUCTページ メインコンテンツ */
+    /* PCでは画像が左パターンのsection要素 */
+    .product-section1 {
+        margin: 20px;
+    }
+
+    /* PCでは左パターンの画像 */
+    .product-section1 > img {
+        width: 100%;
+        border-radius: 0 300px 0 0;
+    }
+
+    /* PCでは画像が右パターンのsection要素 */
+    .product-section2 {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* PCでは右パターンの画像 */
+    .product-section2 > img {
+        order: 1;
+        width: 100%;
+        border-radius: 300px 0 0 0;
+    }
+
+    /* PCでは画像が右パターンのテキストをグループ化するdiv要素 */
+    .product-section2 > div {
+        order: 2;
+    }
+
+    /* 英語の見出し */
+    .product-h2 {
+        color: #2710d5;
+        font-size: 24px;
+        margin: 0;
+    }
+
+    /* 日本語の見出し */
+    .product-h3 {
+        font-size: 28px;
+        margin: 0;
+    }
 }
